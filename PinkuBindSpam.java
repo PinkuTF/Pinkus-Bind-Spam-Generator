@@ -15,8 +15,9 @@ import javafx.event.EventHandler;
 
 public class PinkuBindSpam extends Application
 {
+	// Gui for bind spam generator
 	File inputPath;
-	File outputPath;
+	File outputPath; 
 	
 	public void start(Stage primaryStage)
 	{
@@ -37,7 +38,7 @@ public class PinkuBindSpam extends Application
 		
 		Button btChooseInput = new Button("...");
 		pane.add(btChooseInput,14,0);
-		
+		//Opens file explorer and sets input file to chosen file
 		btChooseInput.setOnAction(
 		            new EventHandler<ActionEvent>() 
 		            {
@@ -68,7 +69,7 @@ public class PinkuBindSpam extends Application
 		
 		Button btChooseOutput = new Button("...");
 		pane.add(btChooseOutput,14,7);
-		
+		//Opens file explorer and sets output file to chosen file
 		btChooseOutput.setOnAction(
 	            new EventHandler<ActionEvent>() 
 	            {
