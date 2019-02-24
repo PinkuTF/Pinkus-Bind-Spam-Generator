@@ -34,7 +34,7 @@ public class PinkuBindSpam extends Application
 		pane.add(new Label("Input text file"),0,0);
 		TextField input = new TextField();
 		pane.add(input,7,0);
-    	input.setEditable(false);
+    		input.setEditable(false);
 		
 		Button btChooseInput = new Button("...");
 		pane.add(btChooseInput,14,0);
